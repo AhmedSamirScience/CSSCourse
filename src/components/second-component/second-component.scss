@@ -1,0 +1,19 @@
+div p strong {
+    color: red;
+}
+
+div h2 strong {
+    color: blue;
+}
+
+div > strong {
+    color: green;
+}
+
+div > h3 {
+    color: orange;
+}
+
+.container .list #itemOne {
+    color : saddlebrown
+}
