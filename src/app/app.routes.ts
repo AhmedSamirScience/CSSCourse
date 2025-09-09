@@ -15,7 +15,9 @@ import { EleventhComponent } from '../components/eleventh-component/eleventh-com
 import { TwiliveComponent } from '../components/twilive-component/twilive-component';
 import { ThirtenComponent } from '../components/thirten-component/thirten-component';
 import { FourtenComponent } from '../components/fourten-component/fourten-component';
-
+import { FiftenComponent } from '../components/fiften-component/fiften-component';
+import { SixtenComponent } from '../components/sixten-component/sixten-component';
+import { SeventenComponent } from '../components/seventen-component/seventen-component';
 
 
 export const routes: Routes = [
@@ -36,6 +38,9 @@ export const routes: Routes = [
     { path: 'eleventh', component: EleventhComponent },
     { path: 'twilive', component: TwiliveComponent },
     { path: 'thirten', component: ThirtenComponent },
-    { path: 'fourten', component: FourtenComponent }
+    { path: 'fourten', component: FourtenComponent },
+    { path: 'fiften', component: FiftenComponent },
+    { path: 'sixten', component: SixtenComponent },
+    { path: 'seventen', component: SeventenComponent }
 
  ];

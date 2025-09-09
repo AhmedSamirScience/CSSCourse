@@ -1,0 +1,71 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+    animation-name: squareAhmed;
+    animation-duration: 2s;
+    animation-timing-function: ease; //linear //ease-in //ease-out //ease-in-out //step-start //step-end
+   animation-iteration-count: infinite;
+   animation-direction: normal; //reverse //alternate //alternate-reverse
+   //animation-fill-mode: backwards;
+}
+
+div:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+
+
+@keyframes squareAhmed {
+    0% {
+        background-color: red;
+        //transform: translateX(0px);
+        
+        rotate: 0deg;
+        translate: 0 0 ;
+        //width: 100px;
+    }
+    25% {
+        background-color: yellow;
+        
+        //transform: translateX(200px) translateY(0px);
+            
+        rotate: 90deg;
+        translate: 0 500px ;
+
+
+        //width: 200px;
+    }
+    50% {
+        background-color: blue;
+        
+        //transform: translateX(200px) translateY(200px);
+        
+        rotate: 180deg;
+        translate: 400px  500px ;
+
+        //width: 200px;
+    }
+    75% {
+        background-color: green;
+        
+        //transform: translateX(0px) translateY(200px); 
+        
+        rotate: 270deg;
+        translate: 400px 0 ;
+
+        //width: 100px;
+    }
+    100% {
+        background-color: red;
+        
+        //transform: translateX(0px) translateY(0px);
+        
+        rotate: 360deg;
+        translate: 0 0 ;
+
+        //width: 100px;
+    }
+}
