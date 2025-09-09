@@ -1,0 +1,43 @@
+div { 
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+p{
+    background-color: blueviolet;
+    width: 50%;
+    text-align: center;
+}
+
+h6 {
+    width : max-content;
+    background-color: yellow;
+}
+
+h5{
+    background-color: green;
+    width: auto;
+}
+
+h4{
+    background-color: orange;
+    width: fit-content;
+}
+
+h3{
+    background-color: purple;
+   min-width: 300px;
+}
+
+
+h2{
+    background-color: pink;
+    max-width: 400px;
+}
+
+h1{
+    background-color: pink;
+    width: 400px;
+}
