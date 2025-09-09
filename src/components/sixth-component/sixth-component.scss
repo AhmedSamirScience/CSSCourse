@@ -1,0 +1,65 @@
+span {
+    display: block; 
+    color: red;
+    text-align: center;
+    background-color: lightgray;
+
+}
+
+p{
+    direction: ltr; // rtl;
+    text-transform: lowercase; //capitalize; uppercase;
+    letter-spacing: 30px; 
+    word-spacing: 20px; 
+    line-height: 50px;
+}
+
+h1{
+    text-decoration-line: underline; // overline; line-through;
+    text-decoration-style: wavy; // solid; double; dotted; dashed;
+    text-decoration-color: blue;
+}
+
+h2{
+    text-decoration: underline overline line-through;
+    text-decoration-style: solid double dotted dashed;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+   // text-shadow: 2px 2px 5px gray , 1px 1px 2px black , 0 0 2px blue; // horizontal vertical blur color
+    text-shadow: 5px 5px 5px gray , -5px -5px 2px black , 10px 10px 2px blue; // horizontal vertical blur color
+}
+
+.container{
+    background: red ; 
+    height: 100px;
+    width: 100px;
+    box-shadow: 10px 10px 5px gray , -10px -10px 5px black , 0 0 5px blue; // horizontal vertical blur color
+}
+
+.wordWrapping1{
+    width: 100px;
+    word-wrap: break-word; // normal; break-word;
+    background-color: aqua;
+
+}
+
+.wordWrapping2{
+    width: 100px;
+    word-wrap: break-word; // normal; break-word;
+    background-color: brown;
+
+}
+
+.wordWrapping3{
+    width: 300px;
+    background: yellow;
+    white-space: pre-wrap;
+
+}
+
+

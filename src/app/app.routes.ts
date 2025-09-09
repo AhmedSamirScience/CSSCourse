@@ -7,6 +7,7 @@ import { SecondComponent } from '../components/second-component/second-component
 import { ThirdComponent } from '../components/third-component/third-component';
 import { FourthComponent } from '../components/fourth-component/fourth-component';
 import { FifthComponent } from '../components/fifth-component/fifth-component';
+import { SixthComponent } from '../components/sixth-component/sixth-component';
 
 
 
@@ -21,5 +22,6 @@ export const routes: Routes = [
     { path: 'third', component: ThirdComponent },
     { path: 'fourth', component: FourthComponent }, 
     { path: 'fifth', component: FifthComponent },
+    { path: 'sixth', component: SixthComponent },
 
  ];
