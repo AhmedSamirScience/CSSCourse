@@ -8,6 +8,10 @@ import { ThirdComponent } from '../components/third-component/third-component';
 import { FourthComponent } from '../components/fourth-component/fourth-component';
 import { FifthComponent } from '../components/fifth-component/fifth-component';
 import { SixthComponent } from '../components/sixth-component/sixth-component';
+import { SeventhComponent } from '../components/seventh-component/seventh-component';
+import { NinthComponent } from '../components/ninth-component/ninth-component';
+import { TenthComponent } from '../components/tenth-component/tenth-component';
+import { EleventhComponent } from '../components/eleventh-component/eleventh-component';
 
 
 
@@ -23,5 +27,9 @@ export const routes: Routes = [
     { path: 'fourth', component: FourthComponent }, 
     { path: 'fifth', component: FifthComponent },
     { path: 'sixth', component: SixthComponent },
+    { path: 'seventh', component: SeventhComponent },
+    { path: 'ninth', component: NinthComponent },
+    { path: 'tenth', component: TenthComponent },
+    { path: 'eleventh', component: EleventhComponent },
 
  ];
