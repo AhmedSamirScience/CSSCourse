@@ -1,0 +1,30 @@
+ul,ol { 
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid blue;
+    background-color: lightblue;
+    list-style-type: circle;
+
+    //list-style-position: inside;
+    //list-style-image: url();
+}
+
+table {
+    width: 100%;
+    border-spacing: 30px;
+}
+th{
+    background-color: lightgray;
+    text-align: center;
+    height: 50px;
+
+}
+
+td{
+    background-color: lightyellow;
+        height: 50px;
+        text-align: center;
+        vertical-align: bottom;
+        border: 2px solid blue;
+
+}
