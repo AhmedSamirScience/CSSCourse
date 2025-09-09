@@ -1,0 +1,23 @@
+div {
+    height: 50px;
+    width: 80px;
+    background: black;
+    color: white;
+    //transition: width 1s , height 4s;//width 1s , height 4s steps(3); //width 1s , height 4s ease-in; //width 1s; //all 1s // height 1s  // 1s == 1000ms
+    transition-property: width , height;//all; //width; //height;
+    transition-duration: 1s , 4s;//1s; //4s;
+    transition-timing-function: ease-in;
+     text-align: center;
+}
+
+div:hover {
+    background: white;
+    height: 400px;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+        vertical-align: center;
+
+}
