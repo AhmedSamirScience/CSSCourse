@@ -1,0 +1,30 @@
+div {
+    height: 200px;
+    background-image: linear-gradient(to right, red, yellow, green, cyan, blue, violet);
+    //background-image: linear-gradient(to top right, red 20%, yellow 200px, green, cyan, blue, violet);
+}
+
+
+#img1 {
+    height: 200px;  
+    background-image: linear-gradient(to bottom, red, yellow, transparent);
+}
+
+#img2 {
+    height: 200px;  
+    //background-image: radial-gradient(circle 200px, red, yellow, green, transparent);
+    //
+    background-image: radial-gradient(circle 200px at top, red, yellow, green, transparent);
+    background-image: radial-gradient(circle 200px at top left, red, yellow, green, transparent);
+
+}
+
+
+#overflowDiv{
+    height: 200px;  
+    width: 300px;
+    background: yellow;
+    border: 5px dotted black;
+    overflow: auto //auto 7lwa 3lshan msh hy3mel scroll 2ela law needed//scroll//hidden; 
+    //overflow-x: hidden; //y3ml scroll horizontal hidden w vertical auto
+}
