@@ -1,0 +1,68 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    background-size: contain;
+}
+
+div:hover{
+ background-image: url('https://www.w3schools.com/css/img_lights.jpg');
+    height: 150px;
+    width: 150px;
+}
+
+div:active{
+       background: red;
+    height: 200px;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover{
+    color: blue;
+    font-size: 30px;
+}
+
+// a:visited{
+//     color: yellow;
+// }
+
+// a:link{
+//     color: green;
+// }
+
+a:active{
+    background-color: cadetblue;
+    color: red;
+    font-size: 40px;
+}
+
+input:focus{
+    background: blue;
+}
+
+input:invalid{
+    background: red;
+}   
+
+input:checked{
+    position: absolute;
+    right: 0;
+}
+
+p::first-line{
+    color: red;
+    background: black;
+    font-size: 30px;
+}
+
+P::before{
+    content: "Hello ";
+    color: blue;
+    font-size: 20px;
+}
