@@ -1,0 +1,33 @@
+div {
+    height: 90px;
+    width: 90px;
+    background-color: yellow;
+    transform: translate(0px , -40px); //x , y 
+}
+
+div {
+    height: 90px;
+    width: 90px;
+    background-color: yellow;
+    transform: scale(0.5); //x , y 
+}
+div {
+    height: 90px;
+    width: 90px;
+    background-color: yellow;
+    transform: scale(-0.5); //x , y 
+}
+
+div {
+    height: 90px;
+    width: 90px;
+    background-color: yellow;
+    transform: rotate(45deg); //x , y 
+}
+
+div {
+    height: 90px;
+    width: 90px;
+    background-color: yellow;
+    transform: skew(20deg , 10deg); //x , y 
+}
