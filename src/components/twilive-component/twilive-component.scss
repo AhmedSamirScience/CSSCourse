@@ -1,0 +1,42 @@
+// [type]{
+//     background: red;
+// }
+
+// [type="text"]{
+//     background: orange;
+// }
+
+// input[type]{
+//     background: blue;
+// }
+
+
+// input[type="text"]{
+//     background: orange;
+// }
+
+[href ^="https"]{ //starts with https
+    color: green;
+    text-decoration: underline;
+}
+
+[href $=".com"]{ // ends with .com
+    color: rgb(221, 104, 168);
+    text-decoration: underline;
+}
+
+[href *=".com"]{ // contains specified value -> .com
+    color: rgb(250, 100, 14);
+    text-decoration: underline;
+}
+
+[href ~="aaaa"]{ // contains specified word and it has to have spaces after and before -> .com
+    color: rgb(0, 217, 255);
+    text-decoration: underline;
+}
+
+[href ~="HttP" i]{ // case insensitive
+    color: rgb(0, 217, 255);
+    text-decoration: underline;
+}
+

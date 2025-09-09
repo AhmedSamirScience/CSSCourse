@@ -12,6 +12,9 @@ import { SeventhComponent } from '../components/seventh-component/seventh-compon
 import { NinthComponent } from '../components/ninth-component/ninth-component';
 import { TenthComponent } from '../components/tenth-component/tenth-component';
 import { EleventhComponent } from '../components/eleventh-component/eleventh-component';
+import { TwiliveComponent } from '../components/twilive-component/twilive-component';
+import { ThirtenComponent } from '../components/thirten-component/thirten-component';
+import { FourtenComponent } from '../components/fourten-component/fourten-component';
 
 
 
@@ -31,5 +34,8 @@ export const routes: Routes = [
     { path: 'ninth', component: NinthComponent },
     { path: 'tenth', component: TenthComponent },
     { path: 'eleventh', component: EleventhComponent },
+    { path: 'twilive', component: TwiliveComponent },
+    { path: 'thirten', component: ThirtenComponent },
+    { path: 'fourten', component: FourtenComponent }
 
  ];
